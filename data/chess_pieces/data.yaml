@@ -1,0 +1,26 @@
+path: chess_pieces
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 12
+names:
+  - black-bishop
+  - black-king
+  - black-knight
+  - black-pawn
+  - black-queen
+  - black-rook
+  - white-bishop
+  - white-king
+  - white-knight
+  - white-pawn
+  - white-queen
+  - white-rook
+
+roboflow:
+  license: Public Domain
+  project: chess-snapshot
+  url: https://app.roboflow.com/chessrecon/chess-snapshot/2
+  version: 2
+  workspace: chessrecon
